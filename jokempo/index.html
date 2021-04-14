@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="styleshet" href="./styles/reset.css"/>
+    <link rel="stylesheet" href="./styles/styles.css"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <title>jokempo</title>
+</head>
+<body>
+    <main class="container">
+        <section class="section">  
+         <div class="box-winner">
+             <span>jogadora 1 ganhou</span>
+         </div>
+         <div class="scoreboard">
+             <span class="player">jogadora 1</span>
+             <div class="box-result">
+             <span class="result result-player-1">00</span>
+            </div>
+            <h2 class="versus">vs</h2>
+            <div class="box-result">
+                <span class="result result-player-2">00</span>
+            </div>
+            <span class="player">jogadora dois</span>
+        </div>
+        <div class="box-center">
+        <div class="box-button">
+         <button class="button-move button-move-stone-player-1">pedra</button>
+         <button class="button-move button-move-paper-player-1">papel</button>
+         <button class="button-move button-move-scissors-player-1">tesoura</button>
+        </div>
+        <div class="box-battlefield">
+            <a ><div class="battlefield battlefield-player-1"></div></a>
+            <h2 class="versus-battlefield">vs</h2>
+            <div class="battlefield battlefield-player-2"></div>
+        </div>
+         <div class="box-button">
+         <button class="button-move button-move-stone-player-2">pedra</button>
+         <button class="button-move button-move-paper-player-2">papel</button>
+         <button class="button-move button-move-scissors-player-2">tesoura</button>
+        </div>
+        </div>
+        <div class="box-play-reset">
+         <button class="button-play-reset button-play">iniciar</button>
+         <button class="button-play-reset button-reset">resetar</button>
+        </div>
+        </section>
+    </main>
+    <script src="./scripts/index.js"></script>
+</body>
+</html>
